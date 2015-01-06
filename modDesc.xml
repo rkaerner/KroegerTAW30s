@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<modDesc descVersion="21">
+    <author>Kroeger TAW 30 by GIANTS altered by Bauer Hannsen</author>
+    <version>1.2</version>
+    <title>
+        <en>Kroeger TAW 30 modified</en>
+        <de>Kroeger TAW 30 modifiziert</de>
+    </title>
+    <description>
+        <en>Kroeger TAW 30 modified</en>
+        <de>Kroeger TAW 30 modfiziert</de>
+    </description>
+    <iconFilename>$data/vehicles/store/store_kroegerTAW30.dds</iconFilename>
+    <multiplayer supported="true"/>
+ 
+    <storeItems>
+        <storeItem>
+			<name>Kroeger TAW 30-60</name>
+			<specs>
+				<fillTypes>wheat rape maize barley chaff potato sugarBeet silage woodChips grass straw forage manure</fillTypes>
+				<capacity unit="$l10n_unit_liter">60000</capacity>
+			</specs>
+			<functions>
+				<function><![CDATA[Mit einem Kipper/Anhänger können Fruchtarten transportiert werden.]]></function>
+			</functions>
+
+			<rotation>0</rotation>
+            <image active="$data/vehicles/store/store_kroegerTAW30.dds" brand="$data/vehicles/store/brand_kroeger.dds"/>
+            <price>65000</price>
+            <xmlFilename>kroegerTAW30-60.xml</xmlFilename>
+            <dailyUpkeep>112</dailyUpkeep>
+			<category>tippers</category>
+			<brand>$l10n_shopItemBrand_kroeger</brand>
+        </storeItem>
+        <storeItem>
+			<name>Kroeger TAW 30-45</name>
+			<specs>
+				<fillTypes>wheat rape maize barley chaff potato sugarBeet silage woodChips grass straw forage manure</fillTypes>
+				<capacity unit="$l10n_unit_liter">45000</capacity>
+			</specs>
+			<functions>
+				<function><![CDATA[Mit einem Kipper/Anhänger können Fruchtarten transportiert werden.]]></function>
+			</functions>
+
+			<rotation>0</rotation>
+            <image active="$data/vehicles/store/store_kroegerTAW30.dds" brand="$data/vehicles/store/brand_kroeger.dds"/>
+            <price>52000</price>
+            <xmlFilename>kroegerTAW30-45.xml</xmlFilename>
+            <dailyUpkeep>90</dailyUpkeep>
+			<category>tippers</category>
+			<brand>$l10n_shopItemBrand_kroeger</brand>
+        </storeItem>
+		
+    </storeItems>    
+</modDesc>
